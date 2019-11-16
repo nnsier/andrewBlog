@@ -178,25 +178,6 @@ class Header extends React.Component {
               justify-content: space-between;
               transition: padding 0.5s;
 
-              &.fixed {
-                height: ${theme.header.height.fixed};
-                background-color: ${theme.color.neutral.white};
-                left: 0;
-                padding: 0 ${theme.space.m};
-                position: fixed;
-                top: 0;
-                width: 100%;
-                z-index: 1;
-
-                h1 {
-                  margin: ${theme.space.stack.xxs};
-                }
-
-                h2 {
-                  display: none;
-                }
-              }
-
               &.homepage:not(.fixed) {
                 :global(a.logoType),
                 h1 {
@@ -217,11 +198,6 @@ class Header extends React.Component {
 
             .logo {
               margin: ${theme.space.inline.default};
-
-              .fixed & {
-                height: 36px;
-                width: 36px;
-              }
 
               .header.homepage:not(.fixed) & {
                 border: none;
