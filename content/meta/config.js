@@ -1,26 +1,26 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
+  siteTitle: "Conscientious Caretaker", // <title>
+  shortSiteTitle: "ConCare", // <title> ending for posts and pages
+  siteDescription: "A space to put out thoughts without fear of persecution",
   siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Andrew Riveros",
+  authorTwitterAccount: "{TODO}",
 
   /* info */
-  headerTitle: "greg lobinski",
+  headerTitle: "andrew riveros",
   headerSubTitle: "presents another one GatsbyJS starter",
 
   /* manifest.json */
-  manifestName: "HeroBlog - a GatsbyJS starter",
-  manifestShortName: "HeroBlog", // max 12 characters
+  manifestName: "Conscientious Caretaker",
+  manifestShortName: "ConCare", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
-  manifestThemeColor: "#666",
+  manifestThemeColor: "#777",
   manifestDisplay: "standalone",
 
   // gravatar

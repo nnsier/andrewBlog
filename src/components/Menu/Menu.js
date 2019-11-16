@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 require("core-js/fn/array/from");
 
 import { FaHome } from "react-icons/fa/";
-import { FaSearch } from "react-icons/fa/";
+// import { FaSearch } from "react-icons/fa/";
 import { FaEnvelope } from "react-icons/fa/";
-import { FaTag } from "react-icons/fa/";
+// import { FaTag } from "react-icons/fa/";
 
 import Item from "./Item";
 import Expand from "./Expand";
@@ -24,8 +24,8 @@ class Menu extends React.Component {
 
     this.items = [
       { to: "/", label: "Home", icon: FaHome },
-      { to: "/category/", label: "Categories", icon: FaTag },
-      { to: "/search/", label: "Search", icon: FaSearch },
+      // { to: "/category/", label: "Categories", icon: FaTag },
+      // { to: "/search/", label: "Search", icon: FaSearch },
       ...pages,
       { to: "/contact/", label: "Contact", icon: FaEnvelope }
     ];
@@ -172,7 +172,7 @@ class Menu extends React.Component {
             left: 0;
             max-height: ${open ? "1000px" : "50px"};
             padding: 0 ${theme.space.inset.s};
-            position: fixed;
+
             width: 100%;
             z-index: 1;
             transition: all ${theme.time.duration.default};
